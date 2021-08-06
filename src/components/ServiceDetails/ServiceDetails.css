@@ -1,0 +1,77 @@
+.service-details .text-part,.img-part{
+    width:45%;
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 13px;
+}
+.service-details .img-part{
+    flex-direction: row-reverse;
+    display: flex;
+}
+.service-details.service-details .img-part img{
+    margin-right: -10%;
+    height: 168px;
+    margin-bottom: 12px;
+}
+.service-details.service-details .card{
+    background-color:pink;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 15%;
+    border-radius:10px;
+}
+.service-details.service-details .content{
+    /* background-color: blueviolet; */
+    padding-top:18px;
+    padding-bottom: 80px;
+}
+.service-details.service-details .text-part img{
+    width: 15px;
+    margin-right: 5px;
+    float: left;
+    margin-top:4px;
+    flex-direction: row-reverse;
+}
+.service-details .text-part .text{
+    width: 80%;
+    float: left;
+}
+.service-details .text-header{
+    margin-bottom: 15px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+.service-details .description{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.service-details .social{
+    width: 155px;
+    margin: auto;
+    margin-top:30px;
+}
+.service-details .icon:hover {
+    opacity: 0.7;
+}
+.service-details .icon{
+    padding: 5px 8px;
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+    border-radius: 50%;
+    color: white;
+}
+.service-details .facebook {
+    background: #3B5998;
+} 
+.service-details .twitter {
+    background: #55ACEE;
+}
+.service-details .youtube {
+    background: #bb0000;
+}
+  
