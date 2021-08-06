@@ -55,7 +55,7 @@ const Login = () => {
         }
     }
     return (
-        <div>
+        <div className='my-40'>
 
             <div className="w-1/2 m-4 p-4 m-auto border-solid border-4 border-light-blue-500">
             <form className="w-full m-auto max-w-sm" onSubmit={handleFormSubmit}>
